@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-label="TFCS-IELTS three-tier cascade">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#161b2e"/>
+    </linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#8b949e"/>
+    </marker>
+  </defs>
+  <rect width="760" height="420" rx="16" fill="url(#bg)"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="40" y="52" font-size="15" fill="#8b949e">486 test essays</text>
+
+    <rect x="40" y="70" width="440" height="72" rx="12" fill="#7aa2ff" fill-opacity="0.12" stroke="#7aa2ff" stroke-opacity="0.6"/>
+    <text x="62" y="102" font-size="20" font-weight="700" fill="#c9d1d9">1 · TF-IDF + Ridge</text>
+    <text x="62" y="126" font-size="14" fill="#8b949e">no GPU</text>
+    <text x="520" y="102" font-size="22" font-weight="800" fill="#7aa2ff">11%</text>
+    <text x="520" y="124" font-size="13" fill="#8b949e">accepted here</text>
+
+    <line x1="260" y1="142" x2="260" y2="180" stroke="#8b949e" stroke-width="2" marker-end="url(#arr)"/>
+
+    <rect x="40" y="184" width="440" height="72" rx="12" fill="#c58cff" fill-opacity="0.12" stroke="#c58cff" stroke-opacity="0.6"/>
+    <text x="62" y="216" font-size="20" font-weight="700" fill="#c9d1d9">2 · DistilBERT</text>
+    <text x="62" y="240" font-size="14" fill="#8b949e">light GPU</text>
+    <text x="520" y="216" font-size="22" font-weight="800" fill="#c58cff">84%</text>
+    <text x="520" y="238" font-size="13" fill="#8b949e">accepted here</text>
+
+    <line x1="260" y1="256" x2="260" y2="294" stroke="#8b949e" stroke-width="2" marker-end="url(#arr)"/>
+
+    <rect x="40" y="298" width="440" height="72" rx="12" fill="#ff8fa3" fill-opacity="0.12" stroke="#ff8fa3" stroke-opacity="0.6"/>
+    <text x="62" y="330" font-size="20" font-weight="700" fill="#c9d1d9">3 · Qwen2.5-3B + FAISS (RAG)</text>
+    <text x="62" y="354" font-size="14" fill="#8b949e">local LLM, hardest essays only</text>
+    <text x="520" y="330" font-size="22" font-weight="800" fill="#ff8fa3">5.3%</text>
+    <text x="520" y="352" font-size="13" fill="#8b949e">reach the LLM</text>
+
+    <text x="692" y="200" font-size="13" fill="#8b949e" text-anchor="middle">final MAE</text>
+    <text x="692" y="236" font-size="34" font-weight="800" fill="#c9d1d9" text-anchor="middle">0.90</text>
+    <text x="692" y="262" font-size="13" fill="#8b949e" text-anchor="middle">0% parse failures</text>
+  </g>
+</svg>

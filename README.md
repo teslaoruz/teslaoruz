@@ -45,7 +45,7 @@
       <code>Flutter</code> <code>FastAPI</code> <code>Android</code>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/teslaoruz/TFCS-IELTS"><img src="https://raw.githubusercontent.com/teslaoruz/TFCS-IELTS/main/results/tfcs_v2/figures/fig6_cascade_flow.png" alt="TFCS-IELTS cascade"></a>
+      <a href="https://github.com/teslaoruz/TFCS-IELTS"><img src="assets/tfcs.svg" alt="TFCS-IELTS cascade"></a>
       <h3>🧪 <a href="https://github.com/teslaoruz/TFCS-IELTS">TFCS-IELTS</a></h3>
       Scores IELTS essays fully offline. A three-tier cascade (TF-IDF + Ridge → DistilBERT → local Qwen2.5-3B with FAISS retrieval) sends only the hard essays to the LLM.
       <br><br>
